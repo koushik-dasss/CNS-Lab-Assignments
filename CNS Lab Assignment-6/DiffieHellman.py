@@ -1,0 +1,12 @@
+q = 157
+alpha = 5
+XA = 15
+XB = 27
+YA = pow(alpha, XA, q)
+YB = pow(alpha, XB, q)
+KA = pow(YB, XA, q)
+KB = pow(YA, XB, q)
+print("YA =", YA)
+print("YB =", YB)
+print("Shared Key by A =", KA)
+print("Shared Key by B =", KB)
